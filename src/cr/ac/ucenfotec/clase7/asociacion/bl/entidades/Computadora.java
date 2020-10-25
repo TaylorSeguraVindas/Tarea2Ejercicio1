@@ -33,11 +33,26 @@ public class Computadora {
     }
 
     public Computadora(){}
+
+    /**
+     * Metodo constructor para la clase Coomputadora
+     * @param nombre String que contiene el nombre de esta computadora
+     * @param marca String que contiene la marca de esta computadora
+     */
     public Computadora(String nombre, String marca) {
         this.nombre = nombre;
         this.marca = marca;
         this.responsable = new Empleado("Default", "1-1234-5678");
     }
+
+    /**
+     *
+     * Metodo constructor para la clase Coomputadora
+     * @param nombre String que contiene el nombre de esta computadora
+     * @param marca String que contiene la marca de esta computadora
+     * @param responsable objeto de la clase Empleado que define al responsable de esta computadora
+     * @see Empleado
+     */
     public Computadora(String nombre, String marca, Empleado responsable) {
         this.nombre = nombre;
         this.marca = marca;

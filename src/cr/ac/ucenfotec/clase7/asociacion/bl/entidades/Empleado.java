@@ -24,6 +24,12 @@ public class Empleado {
     }
 
     public Empleado() {}
+
+    /**
+     * metodo constructor para la clase Empleado
+     * @param nombre String que contiene el nombre del empleado
+     * @param cedula String que contiene la cedula del empleado
+     */
     public Empleado(String nombre, String cedula) {
         this.nombre = nombre;
         this.cedula = cedula;
